@@ -7,13 +7,17 @@
     width:80%;
     height:600px;
     margin: 50px auto;
-    background-color: bisque;
+    background-color: white;
+    overflow-wrap: break-word;
 }
 #inputbox{
     height:40px;
     width:100%;
     position: absolute;
     bottom:0;
+}
+h2{
+    color:dodgerblue;
 }
 input{
     height:30px;
@@ -22,31 +26,58 @@ input{
 }
 button{
     height:30px;
-    width:19%;
+    width:15%;
     display: inline-block;
-    background-color: indianred;
-    color:white;
+    background-color: deepskyblue;
+    color: white;
 }
 #messages{
-    width:80%;
+    width:70%;
     height:400px;
+    margin:10px;
     overflow-y: auto;
     display:inline-block;
     font-size: 20px;
 }
 li{
     border-radius: 10%;
-    color:black;
+    color: deepskyblue;
     display:block;
+    font-size: 20px;
 
 }
 #connected{
     height:400px;
+    margin:10px;
     margin-top:50px;
     width:19%;
     overflow-y: auto;
     display: inline-block;
-    color:  indianred;
-    font-family: aerial;
-    font-size: 25px;
+}
+@media screen and (max-width:740px){
+    h2{
+        font-size:18px;
+    }
+    li{
+        font-size:15px;
+    }
+    #connected{
+        margin-left:0;
+        margin-right:0;
+        width:22%;
+    }
+    #messages{
+        margin-left:0;
+        margin-right:0;
+    }
+
+}
+@media screen and (max-width:550px){
+    #messages{
+        width:60%;
+    }
+    #connected{
+        width:30%;
+        text-align: center;
+    }
 }

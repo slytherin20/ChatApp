@@ -5,7 +5,8 @@
   "main": "server.js",
   "engines":{
      "node":"8.10.0",
-     "npm" : "3.5.2"
+     "npm" : "3.5.2",
+     "git" : "2.18.0"
   },
   "dependencies": {
     "http": "^0.0.0",
